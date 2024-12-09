@@ -3,11 +3,8 @@
 	let { title = 'Set 1' } = $props()
 </script>
 
-<div class="layer nwp">
-	<div class="content">
-		<h1>{title}</h1>
-	</div>
-	<div class="content">
+<div class="layer nwp center fix bg-base-200">
+	<div>
 		<Ship />
 	</div>
 </div>
